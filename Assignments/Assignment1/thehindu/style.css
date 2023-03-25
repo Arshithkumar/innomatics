@@ -1,0 +1,59 @@
+.navi-bar{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#subscribe{
+    background-color: #153c59;
+    margin-left: 600px;
+}
+#login{
+    background-color: #0973a3;
+    margin-left: 10px;
+}
+.btn button{
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+    color: aliceblue;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+.ml-mr{
+    margin-left: 3em!important;
+    margin-right: 3rem!important;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 58px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+.part1 h1{
+    font-size: 24px;
+    font-style: normal;
+    font-family: Merriweather, serif;
+    font-weight: 700;
+}
+
+.part1 p{
+    color: rgb(40, 40, 40, .53);
+}
+
+.content .part1 .part1-img{
+    align-items: center;
+    justify-content: center!important;
+    margin-top: 10px;
+    padding: 50px;
+    display: flex;
+}
